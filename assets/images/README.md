@@ -1,6 +1,3 @@
-# Weather4Cast
-
-
 # 06 Server-Side APIs: Weather Dashboard
 
 ## Your Task
