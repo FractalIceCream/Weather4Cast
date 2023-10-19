@@ -156,7 +156,7 @@ function fetchForecast(lat, lon) {
 //set api urls
 
 function setGeoUrl(city, apiKey) {
-    return `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
+    return `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`;
 }
 
 function getCurrentWeather(lat, lon, apiKey) {
@@ -164,5 +164,5 @@ function getCurrentWeather(lat, lon, apiKey) {
 }
 
 function setForecastUrl(lat, lon, apiKey) {
-    return `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
+    return `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`;
 }
